@@ -24,7 +24,7 @@ A Python application that tracks your portfolio prices (US stocks and cryptocurr
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/branislav0/portfolio-tracker
    cd portfolio-tracker
    ```
 
