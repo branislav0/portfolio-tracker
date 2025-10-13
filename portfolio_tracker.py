@@ -10,19 +10,9 @@ from datetime import datetime
 
 # Configuration
 FINNHUB_API_KEY = "d3mk91pr01qmso347l8gd3mk91pr01qmso347l90"
-TELEGRAM_BOT_TOKEN = "8042528782:AAGuV_8nB974nKer2Dvgdw00lVhYGndMXWk"
-TELEGRAM_CHAT_ID = "5623447976"
+TELEGRAM_BOT_TOKEN = "BOTTOKENHERE"
+TELEGRAM_CHAT_ID = "IDHERE"
 
-# Portfolio holdings
-HOLDINGS = {
-    "GOOGL": 4.189,    # Google
-    "NVDA": 5.13,      # NVIDIA
-    "META": 0.60,      # Meta (Facebook)
-    "BABA": 2.05,      # Alibaba
-    "AAPL": 0.5,       # Apple
-    "WBD": 6,          # Warner Bros Discovery
-    "ADA": 400         # Cardano
-}
 
 def get_usd_to_eur_rate():
     """Get USD to EUR exchange rate."""
