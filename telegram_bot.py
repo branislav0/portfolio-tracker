@@ -13,8 +13,8 @@ import os
 
 # Configuration
 FINNHUB_API_KEY = "d3mk91pr01qmso347l8gd3mk91pr01qmso347l90"
-TELEGRAM_BOT_TOKEN = "8042528782:AAGuV_8nB974nKer2Dvgdw00lVhYGndMXWk"
-TELEGRAM_CHAT_ID = "5623447976"
+TELEGRAM_BOT_TOKEN = "BOTTOKENHERE"
+TELEGRAM_CHAT_ID = "TOKENHERE"
 
 # Portfolio storage
 PORTFOLIO_FILE = "portfolio.json"
@@ -25,15 +25,8 @@ def load_portfolio():
         with open(PORTFOLIO_FILE, 'r') as f:
             return json.load(f)
     except FileNotFoundError:
-        # Initialize with your current holdings
+
         default_portfolio = {
-            "GOOGL": 4.189,
-            "NVDA": 5.13,
-            "META": 0.60,
-            "BABA": 2.05,
-            "AAPL": 0.5,
-            "WBD": 6,
-            "ADA": 400
         }
         save_portfolio(default_portfolio)
         return default_portfolio
